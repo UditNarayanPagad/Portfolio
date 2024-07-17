@@ -11,7 +11,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
-    url?:string;
+    url?: string;
   }[];
   className?: string;
 }) => {
@@ -51,7 +51,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
-            <CardDescription url={item.url} children={item.description}/>
+            <CardDescription url={item.url}>{item.description}</CardDescription>
           </Card>
         </Link>
       ))}
@@ -103,8 +103,8 @@ export const CardDescription = ({
 }) => {
   return (
     <div className="mt-2">
-        <h1 className="text-xs text-zinc-300 mb-2">{children}</h1>
-        <img width={"100%"} src={url} alt="" />
+      <h1 className="text-xs text-zinc-300 mb-2">{children}</h1>
+      <img width={"100%"} src={url} alt="" />
     </div>
   );
 };

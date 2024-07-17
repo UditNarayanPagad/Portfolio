@@ -21,7 +21,7 @@ const Home = () => {
         <div className="absolute top-14 max-w-[89vw] lg:max-w-[80vw] md:max-w-2xl flex flex-col justify-center items-center ">
           <h2 className="uppercase text-widest text-xs max-w-80 text-blue-100 txet-center">Dynamic Wave magic with Next.js</h2>
         <TextGenerateEffect className="text-zinc-100 text-3xl md:text-5xl lg:text-6xl text-center" words="Transforming Concepts into Seemless User Experiences" />
-        <h2 className="text-blue-200 font-semibold my-3">Hey, I'm Udit, A{<FlipWords words={["Frontend","React","Next.js","Backend","FullStack"]}/>}developer</h2>
+        <h2 className="text-blue-200 font-semibold my-3">Hey, I&apos;m Udit, A{<FlipWords words={["Frontend","React","Next.js","Backend","FullStack"]}/>}developer</h2>
         
         <Button 
         title="Show my work"
