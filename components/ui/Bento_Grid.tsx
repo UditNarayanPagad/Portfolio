@@ -52,7 +52,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      {
+      {/* {
         <div>
           {id === 5 && <h1 className="absolute font-semibold">{title}</h1>}
           <img
@@ -61,7 +61,7 @@ export const BentoGridItem = ({
             alt=""
           />
         </div>
-      }
+      } */}
       {id === 2 && (
         <div className="flex justify-center items-center">
           <SparklesCore />

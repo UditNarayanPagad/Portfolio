@@ -39,17 +39,17 @@ export const navItems = [
       spareImg: "",
     },
   
-    {
-      id: 5,
-      title: "Currently building fullstack applications with Next.js",
-      description: "The Inside Scoop",
-      // className:"sm:min-h-[30vh] justify-center items-center bg-center",
-      className: "absolute  h-[40vh] lg:top-[65vh] lg:right-0 bottom-8 lg:w-[40vw]",
-      // imgClassName: "cover",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "./b5.svg",
-      spareImg: "./grid.svg",
-    },
+    // {
+    //   id: 5,
+    //   title: "Currently building fullstack applications with Next.js",
+    //   description: "The Inside Scoop",
+    //   // className:"sm:min-h-[30vh] justify-center items-center bg-center",
+    //   className: "absolute  h-[40vh] lg:top-[65vh] lg:right-0 bottom-8 lg:w-[40vw]",
+    //   // imgClassName: "cover",
+    //   titleClassName: "justify-center md:justify-start lg:justify-center",
+    //   img: "./b5.svg",
+    //   spareImg: "./grid.svg",
+    // },
   ];
   
   export const projects = [
