@@ -10,7 +10,7 @@ export const navItems = [
       id: 1,
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
-      className: "lg:h-[72vh] h-[72vh] lg:w-[40vw]",
+      className: "lg:w-[40vw] max-w-[350px] h-[420px] mb-[60px] ",
       imgClassName: "w-full h-full bg-cover rounded-lg",
       titleClassName: "",
       img: "./Udit.jpg",
