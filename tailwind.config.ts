@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'gradient-black-transparent-black': 'linear-gradient(to right,rgba(255, 255, 255, .2),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, .2))',
+      },
       colors: {
         black: {
           DEFAULT: "#000",

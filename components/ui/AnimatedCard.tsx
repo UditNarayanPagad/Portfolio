@@ -13,7 +13,7 @@ export function AnimatedCard() {
       </CardSkeletonContainer>
       <CardTitle>Get in touch</CardTitle>
       <CardDescription>
-       <span className="flex justify-center items-center"><span className="text-lg text-zinc-300 cursor-pointer hover:underline">email: uditnarayanpagad@gmail.com</span>&nbsp; | copyright &copy;2024</span>
+       <span className="flex justify-center items-center flex-wrap"><span>email:&nbsp;</span><span className="text-lg text-zinc-300 cursor-pointer hover:underline"> uditnarayanpagad@gmail.com</span>&nbsp; | copyright &copy;2024</span>
       </CardDescription>
     </Card>
   );
