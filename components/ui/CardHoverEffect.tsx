@@ -104,7 +104,14 @@ export const CardDescription = ({
   return (
     <div className="mt-2">
       <h1 className="text-xs text-zinc-300 mb-2">{children}</h1>
-      <img width={"100%"} src={url} alt="" />
+      <video
+      src={url}
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="w-full"
+    />
     </div>
   );
 };
