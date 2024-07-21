@@ -7,7 +7,7 @@ import Footer from '../../components/Footer'
 
 const page = () => {
   return (
-    <main className='relative bg-black-100 mx-auto flex flex-col justify-center items-center text-white sm:px-10 px-4 overflow-hidden'>
+    <main className='relative bg-black-100 mx-auto flex justify-center items-center text-white sm:px-10 px-4 overflow-hidden'>
       <div className='max-w-7xl w-full'>
         <Home/>
         <Grid/>

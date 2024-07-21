@@ -5,58 +5,6 @@ export const navItems = [
     { name: "Contact", link: "#contact" },
   ];
   
-  export const gridItems = [
-    {
-      id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
-      className: "max-w-[350px] h-[420px] rounded-2xl",
-      imgClassName: "w-full h-full bg-cover rounded-xl",
-      titleClassName: "",
-      h1Class:"text-xl text-bold text-center mt-2",
-      img: "./GridArt_20240720_164321333.png",
-      // img: "./Udit.jpg",
-      spareImg: "relative",
-    },
-    {
-      id: 2,
-      title: "I'm Proficient in both front-end and back-end development.",
-      description: "MERN and Next.js Developer",
-      className:"lg:h-[300px] h-[240px] flex items-center",
-      imgClassName: "",
-      titleClassName: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%]",
-      h1Class:"text-xl text-bold text-center lg:text-3xl",
-      pClass:"text-center text-blue-300 lg:text-lg mt-3",
-      img: "",
-      spareImg: "relative",
-    },
-    {
-      id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
-      className: "h-[300px] w-full",
-      imgClassName: "",
-      titleClassName: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%]",
-      h1Class:"text-2xl text-bold text-center lg:text-4xl",
-      pClass:"text-center text-blue-300 text-lg text-green-200 mt-3",
-      img: "",
-      spareImg: "w-[80vw] relative max-w-7xl",
-    },
-  
-    {
-      id: 4,
-      title: "Currently building fullstack applications with Next.js",
-      description: "",
-      className: "h-[430px] relative",
-      imgClassName: "",
-      titleClassName: "",
-      h1Class:"text-xl text-bold text-center absolute top-0 lg:text-2xl",
-      pClass:"text-center text-blue-300",
-      img: "./b5.svg",
-      spareImg: "",
-    },
-  ];
-  
   export const projects = [
     {
       title: "Wanderlust functional App",

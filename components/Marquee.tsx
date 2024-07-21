@@ -8,7 +8,7 @@ interface ImageMarqueeProps {
 const ImageMarquee: React.FC<ImageMarqueeProps> = ({ images = [] }) => {
   return (
     <div className='relative w-full flex justify-center'>
-      <div className='absolute top-[280px] md:w-[70vw] lg:w-[60vw] w-[90vw] h-20 bg-gradient-black-transparent-black flex items-center'>
+      <div className='absolute top-0 w-full h-20 flex items-center'>
         <Marquee speed={50} gradient={false}>
           {images.map((image, index) => (
             <img
